@@ -81,9 +81,6 @@ git_hyper_lbl.pack(side=LEFT, padx=(150, 5))
 youtube_hyper_lbl = ttk.Label(about_canvas, image=youtube_link_logo, cursor='hand1')
 youtube_hyper_lbl.pack(side=LEFT)
 
-
-
-
 # URL LABEL:
 url_label = Label(home_canvas, width=40, justify=CENTER, bg='#808080', text="<<<Click to Paste>>>", cursor='plus',
                   fg='white')
